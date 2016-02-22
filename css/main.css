@@ -35,14 +35,18 @@ a {
 .nav-boxes li {
   display: inline-block;
   margin: .1rem;
+}
+
+.nav-boxes a:hover {
+  background-color: #b20953;
+}
+
+.nav-boxes a {
   padding: 1rem;
   background-color: #b2a212;
   border-radius: 5px;
   max-width: 20em;
-}
-
-.nav-boxes li:hover {
-  background-color: #b20953;
+  display: inline-block;
 }
 
 header {
@@ -64,4 +68,12 @@ footer {
   padding: 2em;
   background-color: #ffe500;
   text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.nav-boxes .current {
+  background-color: #b20953;
 }
